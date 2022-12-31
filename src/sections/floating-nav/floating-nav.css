@@ -1,0 +1,33 @@
+.floating_nav {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_nav {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 40px;
+    transition: var(--transition);
+}
+
+.item_nav:hover {
+    transition: var(--transition);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+#floating__nav {
+    background: var(--color-primary);
+    padding: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .floating_nav {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        place-items: center;
+    }
+}
