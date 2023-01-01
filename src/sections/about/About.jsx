@@ -29,8 +29,8 @@ const About = () => {
                     </div>
                     <p>
                         Construction projects that my clients like have always been my passion. Working in the web
-                        development industry for over 2 years and serving many happy clients around the world, I am
-                        always motivated to do more
+                        development industry and serving many satisfied customers, I
+                        am always motivated to do more
                     </p>
                     <p>
                         Hi, my name is Marat Aldiyar from Kazakhstan, Almaty. I'm a frontend web developer.. My top
